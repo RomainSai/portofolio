@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
@@ -11,7 +11,7 @@
 
   <title>Document</title>
 </head>
-<body>
+<body id="body">
   <!-- HEADER -->
   <header>
     <nav class="navbar navbar-inverse navbar-fixed-top align-items-center">
@@ -38,20 +38,20 @@
   </header>
 
   <!-- SECTION 1 -->
-  <section class="first-section">
+  <section id="first-section" class="first-section">
     <div class="container">
       <div class="col-md-8 col-md-offset-2">
         <h3>Romain SAILLOUR</h3>
         <h2>Développeur Web</h2>
-        <h4>Actuellement en formation Développeur Web et Web Mobile<br />
-        Je suis à la recherche d'un stage du 23 avril au 14 juin 2019</h4>
+        <h4>Actuellement en formation Développeur Web et Web Mobile,<br />
+        je suis à la recherche d'un stage du 23 avril au 14 juin 2019</h4>
       </div>
     </div>
   </section>
 
   <!-- SECTION 2 Projets -->
   <section id="projets" class="culture-section2">
-    <div class="container col-md-12">
+    <div id="projet" class="container col-md-12">
       <div class="row">
         <div class="titreProjets col-md-offset-2 col-md-8 col-md-offset-2  ">
           <h2 class="text-capitalize">Mes projets</h2>
@@ -82,15 +82,16 @@
 
 
   <!-- POP UP Speak&Up-->
-  <div class="sliderPop1" style="display:none;">
+  <div id="popup" class="sliderPop1" style="display:none;">
     <div class="ct-sliderPop-container">
       <div class="ct-sliderPop ct-sliderPop-slide1 open">
-        <div class="inner">
+        <div id="popup" class="inner">
           <h2>Speak&Up</h2>
+          <img id="popupProjet" src="screenSpeak&Up.png" alt="image Speak&Up">
           <div class="map-white-border"></div>
           <h2>Programming Not Required</h2>
           <p>WebCorpCo enables marketers to manage their entire stack in one place without needing the ability to program as all code is automatically written by webcorpco.</p>
-          <a class="ct-newsletter-close ct-sliderPop-close" href="#">
+          <a id="popup" class="ct-newsletter-close ct-sliderPop-close" href="#projets">
           <img alt="close" src="https://www.solodev.com/assets/popup-slider/popup-close.png"></a>
         </div>
       </div>
@@ -101,7 +102,7 @@
           <div class="map-white-border"></div>
           <h2>A Touch of Detail</h2>
           <p>With a team of award-winning designers behind every possible design and layout, you are sure to find success in our automated design process.</p>
-          <a class="ct-newsletter-close ct-sliderPop-close" href="#">
+          <a class="ct-newsletter-close ct-sliderPop-close" href="#projets">
           <img alt="close" src="https://www.solodev.com/assets/popup-slider/popup-close.png"></a>
         </div>
       </div>
@@ -112,7 +113,7 @@
           <div class="map-white-border"></div>
           <h2>Marketing in Alignment</h2>
           <p>There is no 'one size fits all' approach to marketing. Every business is unique, customers are unique, and your marketing should be as well.</p>
-          <a class="ct-newsletter-close ct-sliderPop-close" href="#">
+          <a class="ct-newsletter-close ct-sliderPop-close" href="#projets">
           <img alt="close" src="https://www.solodev.com/assets/popup-slider/popup-close.png"></a>
         </div>
       </div>
@@ -120,11 +121,12 @@
   </div>
 
   <!-- POP UP 2 Troc'Encheres-->
-  <div class="sliderPop2" style="display:none;">
+  <div  class="sliderPop2" style="display:none;">
     <div class="ct-sliderPop-container">
       <div class="ct-sliderPop ct-sliderPop-slide1 open">
-        <div class="inner">
+        <div id="popup" class="inner">
           <h2>Troc'Enchères</h2>
+          <img id="popupProjet" src="screenTrocEncheres.png" alt="image troc encheres">
           <div class="map-white-border"></div>
           <h2>Développement d'une application web <br /> en Java EE</h2>
           <ul>
@@ -133,8 +135,7 @@
             <li>Langages utilisés : SQL, Java, Html, CSS</li>
             <li>Framework utilisé : Boostrap</li>
           </ul>
-
-          <a class="ct-newsletter-close ct-sliderPop-close" href="#">
+          <a class="ct-newsletter-close ct-sliderPop-close" href="#projets">
           <img alt="close" src="https://www.solodev.com/assets/popup-slider/popup-close.png"></a>
         </div>
       </div>
@@ -145,7 +146,7 @@
           <div class="map-white-border"></div>
           <h2>A Touch of Detail</h2>
           <p>With a team of award-winning designers behind every possible design and layout, you are sure to find success in our automated design process.</p>
-          <a class="ct-newsletter-close ct-sliderPop-close" href="#">
+          <a class="ct-newsletter-close ct-sliderPop-close" href="#projets">
           <img alt="close" src="https://www.solodev.com/assets/popup-slider/popup-close.png"></a>
         </div>
       </div>
@@ -156,7 +157,7 @@
           <div class="map-white-border"></div>
           <h2>Marketing in Alignment</h2>
           <p>There is no 'one size fits all' approach to marketing. Every business is unique, customers are unique, and your marketing should be as well.</p>
-          <a class="ct-newsletter-close ct-sliderPop-close" href="#">
+          <a class="ct-newsletter-close ct-sliderPop-close" href="#projets">
           <img alt="close" src="https://www.solodev.com/assets/popup-slider/popup-close.png"></a>
         </div>
       </div>

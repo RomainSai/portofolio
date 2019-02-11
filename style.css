@@ -136,6 +136,11 @@
 .ct-sliderPop-slide1 {
   background: rgba(182,182,182,1) none repeat scroll 0% 0%;
 }
+
+.flexslider .slides #popupProjet{
+    max-width: 300px !important;
+}
+
 .ct-sliderPop-slide2 {
   background: #E14F11 none repeat scroll 0% 0%;
 }
@@ -197,7 +202,7 @@
 
 .inner ul li{
   list-style-type: none;
-  margin-bottom: 40px;
+
 }
 /* =================================
   # Navbar
@@ -245,7 +250,7 @@
     font-size: 20px;
   }
   .ct-sliderPop h2 {
-    line-height: 0.2;
+    
   }
   .ct-sliderPop-description {
     padding-bottom: 0;
