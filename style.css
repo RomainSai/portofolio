@@ -1,4 +1,4 @@
-/*  */
+/* SECTION 1  */
 .first-section {
     background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(imageDark.jpg) top no-repeat;
     height: 100%;
@@ -23,11 +23,12 @@
     text-transform: capitalize;
 }
 
-/* Cadres Projets */
+/* SECTION 2 */
 .culture-section2{
   background: white;
   color: grey;
   height: 100%;
+  background-size: cover;
   padding: 50px 0px;
 }
 
@@ -49,6 +50,7 @@
   color: black;
   margin-bottom: 10px;
   box-shadow: 6px 9px 22px rgba(65,75,83,1);
+  padding: 10px !important;
 }
 
 #projetsBox img{
@@ -102,7 +104,7 @@
 }
 .ct-sliderPop .inner {
   color: #fff;
-  margin-top: 110px;
+  margin-top: 60px;
 }
 .map-white-border {
   border-bottom: 1px solid #fff;
@@ -121,6 +123,7 @@
   animation-fill-mode: both;
   animation-name: fadeIn;
   display: block;
+  margin-top: 10px;
 }
 .ct-sliderPop-container {
   overflow:hidden;
@@ -202,7 +205,7 @@
 
 .inner ul li{
   list-style-type: none;
-
+  text-align: left;
 }
 /* =================================
   # Navbar
@@ -250,7 +253,7 @@
     font-size: 20px;
   }
   .ct-sliderPop h2 {
-    
+
   }
   .ct-sliderPop-description {
     padding-bottom: 0;
