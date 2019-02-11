@@ -25,8 +25,10 @@ $( document ).ready(function() {
 //Popup TrocENcheres
 $( document ).ready(function() {
     $('.btn-slider2').on('click', function () {
-        document.getElementById("first-section").style.filter = " blur(2px)";
-        document.getElementById("projet").style.filter = " blur(2px)";
+      document.getElementById("header").style.filter = " blur(2px)";
+      document.getElementById("first-section").style.filter = " blur(2px)";
+      document.getElementById("projet").style.filter = " blur(2px)";
+      document.getElementById("contact").style.filter = " blur(2px)";
     $('.sliderPop2').show();
     $('.ct-sliderPop-container').addClass('open');
     $('.sliderPop2').addClass('flexslider');
@@ -40,8 +42,10 @@ $( document ).ready(function() {
   });
 
     $('.ct-sliderPop-close').on('click', function () {
-        document.getElementById("first-section").style.filter = "none";
-        document.getElementById("projet").style.filter = "none";
+    document.getElementById("header").style.filter = "none";
+    document.getElementById("first-section").style.filter = "none";
+    document.getElementById("projet").style.filter = "none";
+    document.getElementById("contact").style.filter = "none";
     $('.sliderPop2').hide();
     $('.ct-sliderPop-container').removeClass('open');
     $('.sliderPop2').removeClass('flexslider');

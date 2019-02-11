@@ -1,12 +1,12 @@
 /* SECTION 1  */
 .first-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(images/imageDark.jpg) top no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(images/imageDark.jpg) fixed no-repeat;
     height: 100%;
     background-size: cover;
     color: #fff;
 	  text-align: center;
     padding: 250px 0px;
-    
+
 }
 
 .first-section h2, .first-section h3, {
@@ -25,7 +25,7 @@
 }
 
 /* SECTION 2 */
-.culture-section2{
+.culture-section2, .culture-section3 {
   background: white;
   color: grey;
   height: 100%;
@@ -33,7 +33,7 @@
   padding: 50px 0px;
 }
 
-.culture-section2 h2{
+.culture-section2 h2, .culture-section3 h2{
   text-align: center;
 }
 
@@ -208,6 +208,39 @@
   list-style-type: none;
   text-align: left;
 }
+
+
+/* SECTION 3 */
+.culture-section3{
+  background: black;
+}
+
+#contactBox{
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  /*box-shadow: 6px 9px 22px rgba(65,75,83,1);*/
+  padding: 10px !important;
+}
+
+#contactBox h3{
+  text-align: center;
+}
+
+.contact {
+   text-align: center;
+}
+
+hr{
+  border: 0;
+  height: 1px;
+  background: #fff;
+  width: 80%;
+  
+}
+
+
+
 /* =================================
   # Navbar
 ================================= */
