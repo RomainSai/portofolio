@@ -84,7 +84,7 @@ $(document).ready(function () {
     });
 });
 
-//Script NAVABAR disparait on scroll reapparait scroll
+//Script NAVABAR disparait on scroll down reapparait scroll up
 $(document).ready(function () {
     var prevScrollpos = window.pageYOffset;
     window.onscroll = function () {
