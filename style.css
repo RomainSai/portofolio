@@ -49,9 +49,10 @@
 #projetsBox{
   /*border:   1px solid rgba(170,170,170,.89); */
   color: black;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   box-shadow: 6px 9px 22px rgba(65,75,83,1);
   padding: 10px !important;
+  margin-left: 0px !important;
 }
 
 #projetsBox img{
@@ -123,7 +124,6 @@
   animation-fill-mode: both;
   animation-name: fadeIn;
   display: block;
-  margin-top: 10px;
 }
 .ct-sliderPop-container {
   overflow:hidden;
@@ -214,7 +214,9 @@
     margin-right: 25%;
 }
 
-
+#popup h2{
+  padding-top: 20px;
+}
 
 
 /* SECTION 3 */
@@ -263,6 +265,10 @@ hr{
   transition: top 0.3s;
 }
 
+.header{
+  border-bottom: 1px solid #fff !important;
+}
+
 
 /* =================================
   # Footer
@@ -270,7 +276,10 @@ hr{
 .navbar-fixed-bottom{
   position: relative !important;
 }
-
+#footer{
+  border-top:  1px solid #fff !important;
+  padding-top: 15px;
+}
 
 
 /* =================================

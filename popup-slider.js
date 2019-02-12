@@ -5,6 +5,7 @@ $( document ).ready(function() {
       document.getElementById("first-section").style.filter = " blur(2px)";
       document.getElementById("projet").style.filter = " blur(2px)";
       document.getElementById("contact").style.filter = " blur(2px)";
+      document.getElementById("footer").style.filter = " blur(2px)";
     $('.sliderPop1').show();
     $('.ct-sliderPop-container').addClass('open');
     $('.sliderPop1').addClass('flexslider');
@@ -23,6 +24,7 @@ $( document ).ready(function() {
       document.getElementById("first-section").style.filter = "none";
       document.getElementById("projet").style.filter = "none";
       document.getElementById("contact").style.filter = "none";
+      document.getElementById("footer").style.filter = "none";
     $('.sliderPop1').hide();
     $('.ct-sliderPop-container').removeClass('open');
     $('.sliderPop1').removeClass('flexslider');
@@ -37,6 +39,7 @@ $( document ).ready(function() {
       document.getElementById("first-section").style.filter = " blur(2px)";
       document.getElementById("projet").style.filter = " blur(2px)";
       document.getElementById("contact").style.filter = " blur(2px)";
+      document.getElementById("footer").style.filter = " blur(2px)";
     $('.sliderPop2').show();
     $('.ct-sliderPop-container').addClass('open');
     $('.sliderPop2').addClass('flexslider');
@@ -54,6 +57,7 @@ $( document ).ready(function() {
     document.getElementById("first-section").style.filter = "none";
     document.getElementById("projet").style.filter = "none";
     document.getElementById("contact").style.filter = "none";
+    document.getElementById("footer").style.filter = "none";
     $('.sliderPop2').hide();
     $('.ct-sliderPop-container').removeClass('open');
     $('.sliderPop2').removeClass('flexslider');
@@ -68,6 +72,7 @@ $(document).ready(function () {
         document.getElementById("first-section").style.filter = " blur(2px)";
         document.getElementById("projet").style.filter = " blur(2px)";
         document.getElementById("contact").style.filter = " blur(2px)";
+        document.getElementById("footer").style.filter = " blur(2px)";
         $('.sliderPop3').show();
         $('.ct-sliderPop-container').addClass('open');
         $('.sliderPop3').addClass('flexslider');
@@ -85,6 +90,7 @@ $(document).ready(function () {
         document.getElementById("first-section").style.filter = "none";
         document.getElementById("projet").style.filter = "none";
         document.getElementById("contact").style.filter = "none";
+        document.getElementById("footer").style.filter = "none";
         $('.sliderPop3').hide();
         $('.ct-sliderPop-container').removeClass('open');
         $('.sliderPop3').removeClass('flexslider');
