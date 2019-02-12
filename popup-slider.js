@@ -1,6 +1,10 @@
 //Popup Speak&Up
 $( document ).ready(function() {
-  $('.btn-slider1').on('click', function() {
+    $('.btn-slider1').on('click', function () {
+      document.getElementById("header").style.filter = " blur(2px)";
+      document.getElementById("first-section").style.filter = " blur(2px)";
+      document.getElementById("projet").style.filter = " blur(2px)";
+      document.getElementById("contact").style.filter = " blur(2px)";
     $('.sliderPop1').show();
     $('.ct-sliderPop-container').addClass('open');
     $('.sliderPop1').addClass('flexslider');
@@ -14,7 +18,11 @@ $( document ).ready(function() {
     });
   });
 
-  $('.ct-sliderPop-close').on('click', function() {
+    $('.ct-sliderPop-close').on('click', function () {
+      document.getElementById("header").style.filter = "none";
+      document.getElementById("first-section").style.filter = "none";
+      document.getElementById("projet").style.filter = "none";
+      document.getElementById("contact").style.filter = "none";
     $('.sliderPop1').hide();
     $('.ct-sliderPop-container').removeClass('open');
     $('.sliderPop1').removeClass('flexslider');
