@@ -4,7 +4,7 @@
     height: 100%;
     background-size: cover;
     color: #fff;
-	  text-align: center;
+	text-align: center;
     padding: 250px 0px;
 
 }
@@ -73,7 +73,7 @@
     font-size: 18px !Important;
     margin-bottom: 10px;
 }
-.btn-slider1, .btn-slider2 {
+.btn-slider1, .btn-slider2, .btn-slider3 {
     background-color: #fff;
     color: #d2282e;
     -webkit-transition: all 0.3s ease;
@@ -139,11 +139,11 @@
   z-index: 9997;
 }
 .ct-sliderPop-slide1 {
-  background: rgba(182,182,182,1) none repeat scroll 0% 0%;
+  background: rgba(86, 83, 83, 0.63) none repeat scroll 0% 0%;
 }
 
 .flexslider .slides #popupProjet{
-    max-width: 300px !important;
+    max-width: 160px !important;
 }
 
 .ct-sliderPop-slide2 {
@@ -210,6 +210,10 @@
   text-align: left;
 }
 
+.popupProjets{
+    margin-bottom: 5%;
+}
+
 
 /* SECTION 3 */
 .culture-section3{
@@ -250,6 +254,11 @@ hr{
   background-color: black !important;
   margin-bottom: 0px !important;
   border: none !important;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
 }
 
 

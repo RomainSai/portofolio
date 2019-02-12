@@ -14,7 +14,7 @@
 <body id="body">
   <!-- HEADER -->
   <header id="header">
-    <nav class="navbar navbar-inverse navbar-fixed-top align-items-center">
+    <nav id="navbar" class="navbar navbar-inverse navbar-fixed-top align-items-center">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -24,7 +24,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Romain SAILLOUR</a>
+          <a class="navbar-brand" href="#">LOGO</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -57,17 +57,17 @@
           <h2 class="text-capitalize">MES PROJETS</h2>
         </div>
       </div>
-      <div class="row">
-        <div id="projetsBoxParent" class="col-md-6 col-sm-12">
+      <div class="media-container-row">
+        <div id="projetsBoxParent" class="col-lg-4 col-md-6 col-sm-12">
           <div id="projetsBox" class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-offset-1 col-sm-10 col-sm-offset-1">
             <h3>Speak&Up</h3>
-            <img src="images/screenSpeak&Up.png" alt="image Speak&Up">
+            <img src="images/screenSpeak&UpProfil.png" alt="image Speak&Up">
             <div class="boutton-details">
               <span class="btn btn-slider1">Détails</span>
             </div>
           </div>
         </div>
-        <div id="projetsBoxParent" class="col-md-6 col-sm-12">
+        <div id="projetsBoxParent" class="col-lg-4 col-md-6 col-sm-12">
           <div id="projetsBox" class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-offset-1 col-sm-10 col-sm-offset-1">
             <h3>Troc'Enchères</h3>
             <img src="images/screenTrocEncheres.png" alt="image troc encheres">
@@ -76,43 +76,38 @@
             </div>
           </div>
         </div>
+        <div id="projetsBoxParent" class="col-lg-4 col-md-offset-6 col-md-6 col-sm-12">
+          <div id="projetsBox" class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-offset-1 col-sm-10 col-sm-offset-1">
+           <h3>Portofolio</h3>
+            <img src="images/screenPortofolio.png" alt="image portofolio">
+             <div class="boutton-details">
+              <span class="btn btn-slider3">Détails</span>
+             </div>
+            </div>
+          </div>
       </div>
     </div>
   </section>
 
-  <!-- POP UP Speak&Up-->
+  <!-- POP UP 1 Speak&Up-->
   <div id="popup" class="sliderPop1" style="display:none;">
     <div class="ct-sliderPop-container">
       <div class="ct-sliderPop ct-sliderPop-slide1 open">
         <div id="popup" class="inner">
           <h2>Speak&Up</h2>
-          <img id="popupProjet" src="images/screenSpeak&Up.png" alt="image Speak&Up">
+          <img id="popupProjet" src="images/screenSpeak&UpProfil.png" alt="image Speak&Up">
           <div class="map-white-border"></div>
-          <h2>Programming Not Required</h2>
-          <p>WebCorpCo enables marketers to manage their entire stack in one place without needing the ability to program as all code is automatically written by webcorpco.</p>
+            <h2>Développement d'une application web <br /> en Ruby et Ruby On Rails</h2>
+            <div class="popupProjets col-xs-offset-1 col-xs-10 col-xs-offset-1">
+                <ul>
+                    <li>Base de données : PostgreSQL</li>
+                    <li>Serveur d’application : Rails</li>
+                    <li>Langages utilisés : SQL, Ruby, Html, CSS</li>
+                    <li>Framework utilisé : Boostrap</li>
+                    <li>Hébergement : Heroku</li>
+                </ul>
+            </div>
           <a id="popup" class="ct-newsletter-close ct-sliderPop-close" href="#projets">
-          <img alt="close" src="https://www.solodev.com/assets/popup-slider/popup-close.png"></a>
-        </div>
-      </div>
-      <div class="ct-sliderPop ct-sliderPop-slide2">
-        <div class="inner">
-          <i class="fa fa-paint-brush" aria-hidden="true"></i>
-          <h1>Design</h1>
-          <div class="map-white-border"></div>
-          <h2>A Touch of Detail</h2>
-          <p>With a team of award-winning designers behind every possible design and layout, you are sure to find success in our automated design process.</p>
-          <a class="ct-newsletter-close ct-sliderPop-close" href="#projets">
-          <img alt="close" src="https://www.solodev.com/assets/popup-slider/popup-close.png"></a>
-        </div>
-      </div>
-      <div class="ct-sliderPop ct-sliderPop-slide3">
-        <div class="inner">
-          <i class="fa fa-users" aria-hidden="true"></i>
-          <h1>Marketing</h1>
-          <div class="map-white-border"></div>
-          <h2>Marketing in Alignment</h2>
-          <p>There is no 'one size fits all' approach to marketing. Every business is unique, customers are unique, and your marketing should be as well.</p>
-          <a class="ct-newsletter-close ct-sliderPop-close" href="#projets">
           <img alt="close" src="https://www.solodev.com/assets/popup-slider/popup-close.png"></a>
         </div>
       </div>
@@ -128,7 +123,7 @@
           <img id="popupProjet" src="images/screenTrocEncheres.png" alt="image troc encheres">
           <div class="map-white-border"></div>
           <h2>Développement d'une application web <br /> en Java EE</h2>
-          <div class="col-xs-offset-1 col-xs-10 col-xs-offset-1">
+          <div class="popupProjets col-xs-offset-1 col-xs-10 col-xs-offset-1">
             <ul>
               <li>Base de données : SQL Server</li>
               <li>Serveur d’application : Tomcat</li>
@@ -140,25 +135,25 @@
           <img alt="close" src="https://www.solodev.com/assets/popup-slider/popup-close.png"></a>
         </div>
       </div>
-      <div class="ct-sliderPop ct-sliderPop-slide2">
-        <div class="inner">
-          <i class="fa fa-paint-brush" aria-hidden="true"></i>
-          <h1>Design</h1>
+    </div>
+  </div>
+
+  <!-- POP UP 3 PORTOFOLIO-->
+  <div id="popup" class="sliderPop3" style="display:none;">
+    <div class="ct-sliderPop-container">
+      <div class="ct-sliderPop ct-sliderPop-slide1 open">
+        <div id="popup" class="inner">
+          <h2>Portofolio</h2>
+          <img id="popupProjet" src="images/screenPortofolio.png" alt="image Portofolio">
           <div class="map-white-border"></div>
-          <h2>A Touch of Detail</h2>
-          <p>With a team of award-winning designers behind every possible design and layout, you are sure to find success in our automated design process.</p>
-          <a class="ct-newsletter-close ct-sliderPop-close" href="#projets">
-          <img alt="close" src="https://www.solodev.com/assets/popup-slider/popup-close.png"></a>
-        </div>
-      </div>
-      <div class="ct-sliderPop ct-sliderPop-slide3">
-        <div class="inner">
-          <i class="fa fa-users" aria-hidden="true"></i>
-          <h1>Marketing</h1>
-          <div class="map-white-border"></div>
-          <h2>Marketing in Alignment</h2>
-          <p>There is no 'one size fits all' approach to marketing. Every business is unique, customers are unique, and your marketing should be as well.</p>
-          <a class="ct-newsletter-close ct-sliderPop-close" href="#projets">
+          <h2>Développement d'un portofolio</h2>
+            <div class="popupProjets col-xs-offset-1 col-xs-10 col-xs-offset-1">
+                <ul>
+                    <li>Langages utilisés : Html, CSS, JavaScript</li>
+                    <li>Framework utilisé : Boostrap</li>
+                </ul>
+            </div>
+          <a id="popup" class="ct-newsletter-close ct-sliderPop-close" href="#projets">
           <img alt="close" src="https://www.solodev.com/assets/popup-slider/popup-close.png"></a>
         </div>
       </div>
@@ -179,6 +174,7 @@
               <dl class="contact">
                 <dt><h4>Contact</h4></dt>
                 <hr class="hr">
+                <dd>Nom : Romain SAILLOUR</dd>
                 <dd>Email :
                   <a href="mailto:romainsaillour@orange.fr">romainsaillour@orange.fr</a>
                 </dd>
@@ -206,6 +202,8 @@
       <a class="" href="#">Copyright 2019</a>
     </div>
   </nav>
+
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
