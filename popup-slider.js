@@ -98,6 +98,23 @@ $(document).ready(function () {
     });
 });
 
+//SCRIPT CV OUVERTURE
+$(document).ready(function(){
+  $('.cvBtn').on('click', function (){
+    $('.cvAfficher').show();
+    $('.cv-container').addClass('open');
+    $('.cvAfficher').addClass('flexslider');
+    $('.cvAfficher .ct-sliderPop-container').addClass('slides');
+    $('.cvAfficher').flexslider({
+        selector: '.ct-sliderPop-container > .ct-sliderPop',
+        slideshow: false,
+        controlNav: false,
+        controlsContainer: '.ct-sliderPop-container'
+    });
+  });
+});
+
+
 //Script NAVABAR disparait on scroll down reapparait scroll up
 $(document).ready(function () {
     var prevScrollpos = window.pageYOffset;
