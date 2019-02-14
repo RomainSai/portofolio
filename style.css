@@ -1,3 +1,11 @@
+body{
+    background-image: -owg-linear-gradient(to bottom right, white, #a7a7a7);
+  background-image: -webkit-linear-gradient(to bottom right, white, #a7a7a7);
+  background-image: -moz-linear-gradient(to bottom right, white, #a7a7a7);
+  background-image: -o-linear-gradient(to bottom right, white, #a7a7a7);
+  background-image: linear-gradient(to bottom right, white, #a7a7a7);
+}
+
 /* SECTION 1  */
 .first-section {
     background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(images/imageDark.jpg) fixed no-repeat;
@@ -26,7 +34,7 @@
 
 /* SECTION 2 */
 .culture-section2, .culture-section3 {
-  background: white;
+  
   color: grey;
   height: 100%;
   background-size: cover;
@@ -49,6 +57,7 @@
 #projetsBox{
   /*border:   1px solid rgba(170,170,170,.89); */
   color: black;
+  background: #fff;
   margin-bottom: 50px;
   box-shadow: 6px 9px 22px rgba(65,75,83,1);
   padding: 10px !important;
@@ -306,6 +315,40 @@ hr{
     color: grey;
 }
 
+/* =================================
+  # Boutton Retour vers le haut
+================================= */
+a#cRetour{
+  border-radius:3px;
+  padding:10px;
+  font-size:15px;
+  text-align:center;
+  color:#fff;
+  background:rgba(0, 0, 0, 0.25);
+  position:fixed;
+  right:20px;
+  opacity:1;
+  z-index:99999;
+  transition:all ease-in 0.2s;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  text-decoration: none;
+}
+a#cRetour:before{ content: "\25b2"; }
+a#cRetour:hover{
+  background:rgba(0, 0, 0, 1);
+  transition:all ease-in 0.2s;
+}
+a#cRetour.cInvisible{
+  bottom:-35px;
+  opacity:0;
+  transition:all ease-in 0.5s;
+}
+
+a#cRetour.cVisible{
+  bottom:20px;
+  opacity:1;
+}
 
 /* =================================
   # Media Queries
