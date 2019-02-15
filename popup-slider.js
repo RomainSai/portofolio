@@ -17,9 +17,9 @@ $( document ).ready(function() {
     controlNav: false,
     controlsContainer: '.ct-sliderPop-container'
     });
-  });
+    });
 
-    $('.ct-sliderPop-close').on('click', function () {
+    $('.ct-sliderPop-close' || '#body').on('click', function () {
       document.getElementById("header").style.filter = "none";
       document.getElementById("first-section").style.filter = "none";
       document.getElementById("projet").style.filter = "none";
@@ -40,6 +40,7 @@ $( document ).ready(function() {
       document.getElementById("projet").style.filter = " blur(2px)";
       document.getElementById("contact").style.filter = " blur(2px)";
       document.getElementById("footer").style.filter = " blur(2px)";
+      document.getElementById("cv").style.filter = " blur(2px)";
     $('.sliderPop2').show();
     $('.ct-sliderPop-container').addClass('open');
     $('.sliderPop2').addClass('flexslider');
@@ -58,6 +59,7 @@ $( document ).ready(function() {
     document.getElementById("projet").style.filter = "none";
     document.getElementById("contact").style.filter = "none";
     document.getElementById("footer").style.filter = "none";
+    document.getElementById("cv").style.filter = "none";
     $('.sliderPop2').hide();
     $('.ct-sliderPop-container').removeClass('open');
     $('.sliderPop2').removeClass('flexslider');
