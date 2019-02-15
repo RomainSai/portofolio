@@ -1,3 +1,12 @@
+//Fermeture du DropDown au click
+$(document).ready(function () {
+    $(".dropdown-menu a").click(function () {
+        $(this).closest(".dropdown-menu").prev().dropdown("toggle");
+    });
+});
+
+
+
 //Popup Speak&Up
 $( document ).ready(function() {
     $('.btn-slider1').on('click', function () {
@@ -134,6 +143,6 @@ $(document).ready(function () {
 //Script bouton vers le haut
 $(document).ready(function () {
         window.onscroll = function (ev) {
-            document.getElementById("cRetour").className = (window.pageYOffset > 10) ? "cVisible" : "cInvisible";
+            document.getElementById("cRetour").className = (window.pageYOffset > 300) ? "cVisible" : "cInvisible";
         };
 });
