@@ -131,9 +131,7 @@ $(document).ready(function () {
 
 //Script bouton vers le haut
 $(document).ready(function () {
-   
         window.onscroll = function (ev) {
             document.getElementById("cRetour").className = (window.pageYOffset > 10) ? "cVisible" : "cInvisible";
         };
-  
 });
