@@ -13,6 +13,8 @@ $( document ).ready(function() {
       document.getElementById("header").style.filter = " blur(2px)";
       document.getElementById("first-section").style.filter = " blur(2px)";
       document.getElementById("projet").style.filter = " blur(2px)";
+      document.getElementById("projets").style.filter = " blur(2px)";
+      document.getElementById("cv").style.filter = " blur(2px)";
       document.getElementById("contact").style.filter = " blur(2px)";
       document.getElementById("footer").style.filter = " blur(2px)";
     $('.sliderPop1').show();
@@ -28,10 +30,12 @@ $( document ).ready(function() {
     });
     });
 
-    $('.ct-sliderPop-close' || '#body').on('click', function () {
+    $('.ct-sliderPop-close' || '.imageBlanche').on('click', function () {
       document.getElementById("header").style.filter = "none";
       document.getElementById("first-section").style.filter = "none";
       document.getElementById("projet").style.filter = "none";
+      document.getElementById("projets").style.filter = "none";
+      document.getElementById("cv").style.filter = "none";
       document.getElementById("contact").style.filter = "none";
       document.getElementById("footer").style.filter = "none";
     $('.sliderPop1').hide();
@@ -47,9 +51,10 @@ $( document ).ready(function() {
       document.getElementById("header").style.filter = " blur(2px)";
       document.getElementById("first-section").style.filter = " blur(2px)";
       document.getElementById("projet").style.filter = " blur(2px)";
+      document.getElementById("projets").style.filter = " blur(2px)";
+      document.getElementById("cv").style.filter = " blur(2px)";
       document.getElementById("contact").style.filter = " blur(2px)";
       document.getElementById("footer").style.filter = " blur(2px)";
-      document.getElementById("cv").style.filter = " blur(2px)";
     $('.sliderPop2').show();
     $('.ct-sliderPop-container').addClass('open');
     $('.sliderPop2').addClass('flexslider');
@@ -63,12 +68,13 @@ $( document ).ready(function() {
   });
 
     $('.ct-sliderPop-close').on('click', function () {
-    document.getElementById("header").style.filter = "none";
-    document.getElementById("first-section").style.filter = "none";
-    document.getElementById("projet").style.filter = "none";
-    document.getElementById("contact").style.filter = "none";
-    document.getElementById("footer").style.filter = "none";
-    document.getElementById("cv").style.filter = "none";
+      document.getElementById("header").style.filter = "none";
+      document.getElementById("first-section").style.filter = "none";
+      document.getElementById("projet").style.filter = "none";
+      document.getElementById("projets").style.filter = "none";
+      document.getElementById("cv").style.filter = "none";
+      document.getElementById("contact").style.filter = "none";
+      document.getElementById("footer").style.filter = "none";
     $('.sliderPop2').hide();
     $('.ct-sliderPop-container').removeClass('open');
     $('.sliderPop2').removeClass('flexslider');
@@ -79,11 +85,13 @@ $( document ).ready(function() {
 //Popup Portofolio
 $(document).ready(function () {
     $('.btn-slider3').on('click', function () {
-        document.getElementById("header").style.filter = " blur(2px)";
-        document.getElementById("first-section").style.filter = " blur(2px)";
-        document.getElementById("projet").style.filter = " blur(2px)";
-        document.getElementById("contact").style.filter = " blur(2px)";
-        document.getElementById("footer").style.filter = " blur(2px)";
+      document.getElementById("header").style.filter = " blur(2px)";
+      document.getElementById("first-section").style.filter = " blur(2px)";
+      document.getElementById("projet").style.filter = " blur(2px)";
+      document.getElementById("projets").style.filter = " blur(2px)";
+      document.getElementById("cv").style.filter = " blur(2px)";
+      document.getElementById("contact").style.filter = " blur(2px)";
+      document.getElementById("footer").style.filter = " blur(2px)";
         $('.sliderPop3').show();
         $('.ct-sliderPop-container').addClass('open');
         $('.sliderPop3').addClass('flexslider');
@@ -97,11 +105,13 @@ $(document).ready(function () {
     });
 
     $('.ct-sliderPop-close').on('click', function () {
-        document.getElementById("header").style.filter = "none";
-        document.getElementById("first-section").style.filter = "none";
-        document.getElementById("projet").style.filter = "none";
-        document.getElementById("contact").style.filter = "none";
-        document.getElementById("footer").style.filter = "none";
+      document.getElementById("header").style.filter = "none";
+      document.getElementById("first-section").style.filter = "none";
+      document.getElementById("projet").style.filter = "none";
+      document.getElementById("projets").style.filter = "none";
+      document.getElementById("cv").style.filter = "none";
+      document.getElementById("contact").style.filter = "none";
+      document.getElementById("footer").style.filter = "none";
         $('.sliderPop3').hide();
         $('.ct-sliderPop-container').removeClass('open');
         $('.sliderPop3').removeClass('flexslider');

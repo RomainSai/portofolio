@@ -44,7 +44,7 @@ img#bg {
 
 /* SECTION 2 */
 .culture-section2, .culture-section3 {
-  
+
   color: grey;
   height: 100%;
   background-size: cover;
@@ -104,7 +104,9 @@ img#bg {
     color: #565299;
 }
 
-/* Popup CSS Below */
+/* =================================
+  # POPUP
+================================= */
 .flexslider{
     border: none !important;
 }
@@ -165,6 +167,19 @@ img#bg {
 
 .flexslider .slides #popupProjet{
     max-width: 160px !important;
+}
+
+#imageBlanche{
+  overflow:hidden;
+  display: inline-table;
+  max-width: 100% !important;
+  position: fixed !important; /* Required to override style inline style added by Flexslider */
+  background-attachment: fixed;
+  opacity: 0.2;
+  min-width: 10000px;
+  min-height: 10000px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
 
 .ct-sliderPop-slide2 {
@@ -246,7 +261,7 @@ img#bg {
   height: 100%;
 }
 
-#cv{
+#cv, #projets{
     border-top: 1px solid grey;
 }
 
