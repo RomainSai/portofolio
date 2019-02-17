@@ -24,6 +24,7 @@ img#bg {
   color: #fff;
 	text-align: center;
   padding: 250px 0px;
+  box-shadow: 0px 6px 22px rgba(65,75,83,1);
 
 }
 
@@ -77,6 +78,7 @@ img#bg {
 }
 
 #projetsBox{
+  max-width: 300px; 
   /*border:   1px solid rgba(170,170,170,.89); */
   color: black;
   background: #fff;
@@ -322,6 +324,10 @@ hr{
     width: 30px;
 }
 
+.photoCV img{
+  height:  25%;
+  width: 25%;
+}
 
 /* =================================
   # Navbar
@@ -411,7 +417,7 @@ a#cRetour.cVisible{
     color: #fff;
   	text-align: center;
     padding: 20 0px 0px;
-
+    box-shadow: 0px 6px 22px rgba(65,75,83,1);
   }
 
   .ct-sliderPop {
