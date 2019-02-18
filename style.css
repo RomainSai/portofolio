@@ -18,13 +18,19 @@ img#bg {
 
 /* SECTION 1  */
 .first-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(images/imageDark.jpg) fixed no-repeat;
-    height: 100%;
-    background-size: cover;
-    color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(images/imageDark.jpg) fixed no-repeat;
+  height: 100%;
+  background-size: cover;
+  color: #fff;
 	text-align: center;
-    padding: 250px 0px;
+  padding: 250px 0px;
+  box-shadow: 0px 6px 22px rgba(65,75,83,1);
 
+}
+
+.first-section a{
+  text-decoration: none;
+  color: #fff;
 }
 
 .first-section h2, .first-section h3, {
@@ -42,9 +48,16 @@ img#bg {
     text-transform: capitalize;
 }
 
+/* =================================
+  # SECTION QUI SUIS JE
+================================= */
+.presentation p{
+  margin: 20px;
+}
+
 /* SECTION 2 */
 .culture-section2, .culture-section3 {
-  
+
   color: grey;
   height: 100%;
   background-size: cover;
@@ -65,6 +78,7 @@ img#bg {
 }
 
 #projetsBox{
+  max-width: 300px; 
   /*border:   1px solid rgba(170,170,170,.89); */
   color: black;
   background: #fff;
@@ -74,9 +88,11 @@ img#bg {
 }
 
 #projetsBox img{
-  width: 90%;
-  height: 300px;
-  margin: 20px;
+  display: block;
+  width: 80%;
+  height: 225px;
+  margin: 20px auto;
+
 }
 
 #projetsBox h3{
@@ -104,7 +120,9 @@ img#bg {
     color: #565299;
 }
 
-/* Popup CSS Below */
+/* =================================
+  # POPUP
+================================= */
 .flexslider{
     border: none !important;
 }
@@ -165,6 +183,19 @@ img#bg {
 
 .flexslider .slides #popupProjet{
     max-width: 160px !important;
+}
+
+#imageBlanche{
+  overflow:hidden;
+  display: inline-table;
+  max-width: 100% !important;
+  position: fixed !important; /* Required to override style inline style added by Flexslider */
+  background-attachment: fixed;
+  opacity: 0.2;
+  min-width: 10000px;
+  min-height: 10000px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
 
 .ct-sliderPop-slide2 {
@@ -293,6 +324,10 @@ hr{
     width: 30px;
 }
 
+.photoCV img{
+  height:  25%;
+  width: 25%;
+}
 
 /* =================================
   # Navbar
@@ -374,6 +409,16 @@ a#cRetour.cVisible{
 
 }
 @media (max-width: 767px){
+
+  .first-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(images/image.jpg) fixed no-repeat;
+    height: 100%;
+    background-size: auto;
+    color: #fff;
+  	text-align: center;
+    padding: 20 0px 0px;
+    box-shadow: 0px 6px 22px rgba(65,75,83,1);
+  }
 
   .ct-sliderPop {
     height: 500px;

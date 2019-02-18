@@ -29,7 +29,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a class="download" href="#presentation">Qui suis-je ?</a></li>
+            <li><a class="download" href="#presentation">Qui suis je ?</a></li>
             <li><a class="download" href="#projets">Projets</a></li>
             <li><a class="download" href="#contact">Contact</a></li>
             <li><a class="download" href="#cv">CV</a></li>
@@ -43,10 +43,11 @@
   <section id="first-section" class="first-section">
     <div class="container">
       <div class="col-md-8 col-md-offset-2">
-        <h3>Romain SAILLOUR</h3>
-        <h2>Développeur Web</h2>
-        <h4>Actuellement en formation Développeur Web et Web Mobile,<br />
-        je suis à la recherche d'un stage du 23 avril au 14 juin 2019</h4>
+        <a href="#presentation">
+          <h3>Romain SAILLOUR</h3>
+          <h2>Développeur Web</h2>
+        </a>
+
       </div>
     </div>
   </section>
@@ -81,8 +82,8 @@
       </div>
       <div class="">
           <!-- projet 1 -->
-        <div id="projetsBoxParent" class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
-            <div id="projetsBox" class="col-xl-offset-0 col-xl-10 col-lg-offset-0 col-lg-12 col-md-offset-0 col-md-12 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 ">
+        <div id="projetsBoxParent" class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <div id="projetsBox" class="col-xl-offset-0 col-xl-10 col-lg-offset-0 col-lg-12 col-md-offset-0 col-md-12 col-sm-offset-1 col-sm-10 col-xs-12 ">
                 <h3>Speak&Up</h3>
                 <img src="images/screenSpeak&UpProfil.png" alt="image Speak&Up">
                 <div class="boutton-details">
@@ -91,8 +92,8 @@
             </div>
         </div>
           <!-- projet 2 -->
-        <div id="projetsBoxParent" class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
-            <div id="projetsBox" class="col-xl-offset-0 col-xl-10 col-lg-offset-0 col-lg-12 col-md-offset-0 col-md-12 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 ">
+        <div id="projetsBoxParent" class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <div id="projetsBox" class="col-xl-offset-0 col-xl-10 col-lg-offset-0 col-lg-12 col-md-offset-0 col-md-12 col-sm-offset-1 col-sm-10 col-xs-12 ">
                 <h3>Troc'Enchères</h3>
                 <img src="images/screenTrocEncheres.png" alt="image troc encheres">
                 <div class="boutton-details">
@@ -101,8 +102,8 @@
             </div>
         </div>
           <!-- projet 3 -->
-        <div id="projetsBoxParent" class="projetPortofolio col-xl-4 col-lg-4 col-md-offset-3 col-md-4 col-sm-6">
-            <div id="projetsBox" class="col-xl-offset-0 col-xl-10 col-lg-offset-0 col-lg-12 col-md-offset-0 col-md-12 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 ">
+        <div id="projetsBoxParent" class="projetPortofolio col-xl-4 col-lg-4 col-md-offset-3 col-md-4 col-sm-6 col-xs-12">
+            <div id="projetsBox" class="col-xl-offset-0 col-xl-10 col-lg-offset-0 col-lg-12 col-md-offset-0 col-md-12 col-sm-offset-1 col-sm-10 col-xs-12 ">
                 <h3>Portofolio</h3>
                 <img src="images/screenPortofolio.png" alt="image portofolio">
                 <div class="boutton-details">
@@ -116,10 +117,15 @@
 
   <!-- POP UP 1 Speak&Up-->
   <div id="popup" class="sliderPop1" style="display:none;">
+    <a id="popup" class="ct-newsletter-close ct-sliderPop-close" href="#projets">
+      <img id="imageBlanche" class="imageBlanche "src="images/Image_Blanche.png" alt="">
+    </a>
+
     <div class="ct-sliderPop-container">
       <div class="ct-sliderPop ct-sliderPop-slide1 open">
         <div id="popup" class="inner">
           <h2>Speak&Up</h2>
+
           <img id="popupProjet" src="images/screenSpeak&UpProfil.png" alt="image Speak&Up">
           <div class="map-white-border"></div>
             <h2>Développement d'une application web <br /> en Ruby et Ruby On Rails</h2>
@@ -141,6 +147,9 @@
 
   <!-- POP UP 2 Troc'Encheres-->
   <div id="popup"  class="sliderPop2" style="display:none;">
+    <a id="popup" class="ct-newsletter-close ct-sliderPop-close" href="#projets">
+      <img id="imageBlanche" class="imageBlanche "src="images/Image_Blanche.png" alt="">
+    </a>
     <div class="ct-sliderPop-container">
       <div class="ct-sliderPop ct-sliderPop-slide1 open">
         <div id="popup" class="inner">
@@ -165,6 +174,9 @@
 
   <!-- POP UP 3 PORTOFOLIO-->
   <div id="popup" class="sliderPop3" style="display:none;">
+    <a id="popup" class="ct-newsletter-close ct-sliderPop-close" href="#projets">
+      <img id="imageBlanche" class="imageBlanche "src="images/Image_Blanche.png" alt="">
+    </a>
     <div class="ct-sliderPop-container">
       <div class="ct-sliderPop ct-sliderPop-slide1 open">
         <div id="popup" class="inner">
@@ -186,6 +198,11 @@
   </div>
 
     <!--SECTION 4 CV -->
+    <div class="photoCV">
+      <h3>Romain SAILLOUR</h3>
+      <img src="images/photo CV R.png" alt="">
+    </div>
+
     <section id="cv" class="culture-section2 container">
         <div id="" class="col-md-12">
             <div class="row">
