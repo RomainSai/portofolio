@@ -16,9 +16,15 @@ img#bg {
     height: 100%;
 }
 
+.text-capitalize {
+  text-align: center;
+  font-size: 30px;
+  color: grey;
+}
+
 /* SECTION 1  */
 .first-section {
-  background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(images/imageDark.jpg) fixed no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(images/image_code.jpg) fixed no-repeat;
   height: 100%;
   background-size: cover;
   color: #fff;
@@ -78,7 +84,7 @@ img#bg {
 }
 
 #projetsBox{
-  max-width: 300px; 
+  max-width: 300px;
   /*border:   1px solid rgba(170,170,170,.89); */
   color: black;
   background: #fff;
@@ -272,12 +278,25 @@ img#bg {
 }
 
 /* SECTION 4 CV */
+#resume ul{
+    padding-left: 0px !important;
+}
+#resume ul li{
+  list-style-type: none;
+  text-align: left;
+
+}
+
+.cvBtn{
+
+}
+
 #cv img{
   width: 100%;
   height: 100%;
 }
 
-#cv, #projets{
+#cv, #projets, #resume{
     border-top: 1px solid grey;
 }
 
@@ -333,6 +352,7 @@ hr{
   # Navbar
 ================================= */
 .navbar {
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
   border-radius: 0px !important;
   background-color: black !important;
   margin-bottom: 0px !important;
@@ -340,7 +360,6 @@ hr{
   position: fixed;
   top: 0;
   width: 100%;
-  display: block;
   transition: top 0.3s;
 }
 

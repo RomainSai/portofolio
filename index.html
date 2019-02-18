@@ -15,9 +15,9 @@
   <!-- HEADER -->
   <header id="header">
     <nav id="navbar" class="navbar header navbar-inverse navbar-fixed-top align-items-center">
-      <div class="container-fluid">
+      <div class="container-fluid" id="navbar">
         <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
+        <div class="navbar-header" id="navbar">
           <button type="button" class="navbar-toggle collapsed" id="dlDropDown" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -32,7 +32,7 @@
             <li><a class="download" href="#presentation">Qui suis je ?</a></li>
             <li><a class="download" href="#projets">Projets</a></li>
             <li><a class="download" href="#contact">Contact</a></li>
-            <li><a class="download" href="#cv">CV</a></li>
+            <li><a class="download" href="#resume">CV</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -70,7 +70,7 @@
                 </div>
             </div>
         </div>
-    </section>        
+    </section>
 
   <!-- SECTION 2 Projets -->
   <section id="projets" class="culture-section2 container">
@@ -80,9 +80,9 @@
           <h2 class="text-capitalize">MES PROJETS</h2>
         </div>
       </div>
-      <div class="">
+      <div class="row">
           <!-- projet 1 -->
-        <div id="projetsBoxParent" class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div id="projetsBoxParent" class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-6 col-xs-offset-3">
             <div id="projetsBox" class="col-xl-offset-0 col-xl-10 col-lg-offset-0 col-lg-12 col-md-offset-0 col-md-12 col-sm-offset-1 col-sm-10 col-xs-12 ">
                 <h3>Speak&Up</h3>
                 <img src="images/screenSpeak&UpProfil.png" alt="image Speak&Up">
@@ -197,11 +197,117 @@
     </div>
   </div>
 
-    <!--SECTION 4 CV -->
-    <div class="photoCV">
-      <h3>Romain SAILLOUR</h3>
-      <img src="images/photo CV R.png" alt="">
+  <!--SECTION 5 CV en HTML CSS -->
+  <section id="resume" class="culture-section2 container">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1">
+          <h2 class="text-capitalize">CV</h2>
+          <div class="row">
+            <div class="col-md-7">
+              <h3>Formation</h3>
+              <ul>
+                <li>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <p class="sm-text-center">Etudiant Développeur</p>
+                      <p class="sm-text-center">Octobre 2018 - Juin 2019</p>
+                    </div>
+                    <div class="col-md-8">
+                      <p>Formation Développeur Web et Web Mobile</p>
+                      <p>ENI Ecole Informatique - RENNES
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <p class="sm-text-center">Etudiant Développeur</p>
+                      <p class="sm-text-center">Juillet - Septembre 2018</p>
+                    </div>
+                    <div class="col-md-8">
+                      <p>Bootcamp - The Hacking Project</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <p class="sm-text-center">Licence AES</p>
+                      <p class="sm-text-center">2010 - 2011</p>
+                    </div>
+                    <div class="col-md-8">
+                      <p>License Administration Economique et Sociale</p>
+                      <p>UBO BREST</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <p class="sm-text-center">Licence MOA</p>
+                      <p class="sm-text-center">2009 - 2010</p>
+                    </div>
+                    <div class="col-md-8">
+                      <p>License Management des Organisations Agricoles</p>
+                      <p>UBO BREST site de MORLAIX</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <p class="sm-text-center">BTS CGO</p>
+                      <p class="sm-text-center">2007 - 2009</p>
+                    </div>
+                    <div class="col-md-8">
+                      <p>BTS Comptabilité et Gestion des Organisations</p>
+                      <p>Lycée Jules Lesven - BREST</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4 col-md-offset-1">
+              <h3>Compétences</h3>
+              <ul>
+                <li>Java (Java SE / Java EE)</li>
+                <li>Programmation Orientée Objet</li>
+                <li>PHP / Symfony</li>
+                <li>Ruby / Ruby On Rails</li>
+                <li>Git & Github</li>
+                <li>SQL (SQL Server) / PL SQL</li>
+                <li>HTML5 / CSS3</li>
+                <li>Bootstrap</li>
+                <li>JavaScript / JQuery</li>
+              </ul>
+
+              <h3>Atouts</h3>
+              <ul>
+                <li>Polyvalent</li>
+                <li>Rigoureux</li>
+                <li>Organisé</li>
+                <li>Esprit d'équipe</li>
+                <li>Sens relationnel</li>
+                <li>Ponctuel</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
+
+    <!--SECTION 4 CV -->
 
     <section id="cv" class="culture-section2 container">
         <div id="" class="col-md-12">
@@ -221,25 +327,13 @@
             </div>
         </div>
     </section>
-
-    <div class="boutton-details">
-        <span class="btn cvBtn">Afficher CV</span>
-    </div>
-
-
-    <div id="popup"  class="cvAfficher" style="display:none;">
-      <div class="ct-sliderPop-container cv-container">
-        <div class="ct-sliderPop ct-sliderPop-slide1 open">
-          <div id="popup" class="inner">
-            <h2>CV</h2>
-            <img id="popupProjet" src="images/cv.jpg" alt="image CV">
-            <a class="ct-newsletter-close ct-sliderPop-close" href="#cv">
-            <img alt="close" src="https://www.solodev.com/assets/popup-slider/popup-close.png"></a>
-          </div>
-        </div>
+    <div class="row sm-text-center">
+      <div class="boutton-details">
+        <form method="get" target="_blank" action="cv/cv.pdf">
+          <button type="submit" >Visualiser CV en PDF</button>
+        </form>
       </div>
     </div>
-
 
   <!-- SECTION 3 Contact -->
   <section id="contact" class="culture-section3">

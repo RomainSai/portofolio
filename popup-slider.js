@@ -3,6 +3,17 @@ $(document).ready(function () {
     $(".dropdown-menu a").click(function () {
         $(this).closest(".dropdown-menu").prev().dropdown("toggle");
     });
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function () {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+            console.log("je suis dans le if");
+        } else {
+            document.getElementById("navbar").style.top = "-500px";
+        }
+        prevScrollpos = currentScrollPos;
+    }
 });
 
 
@@ -138,21 +149,17 @@ $(document).ready(function(){
 
 //Script NAVABAR disparait on scroll down reapparait scroll up
 $(document).ready(function () {
-    var prevScrollpos = window.pageYOffset;
-    window.onscroll = function () {
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-            document.getElementById("navbar").style.top = "0";
-        } else {
-            document.getElementById("navbar").style.top = "-50px";
-        }
-        prevScrollpos = currentScrollPos;
-    }
-});
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
 
-//Script bouton vers le haut
-$(document).ready(function () {
-        window.onscroll = function (ev) {
-            document.getElementById("cRetour").className = (window.pageYOffset > 300) ? "cVisible" : "cInvisible";
-        };
+  //Script bouton vers le haut
+  document.getElementById("cRetour").className = (window.pageYOffset > 300) ? "cVisible" : "cInvisible";
+  }
 });
