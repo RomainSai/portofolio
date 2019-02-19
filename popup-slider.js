@@ -16,8 +16,6 @@ $(document).ready(function () {
     }
 });
 
-
-
 //Popup Speak&Up
 $( document ).ready(function() {
     $('.btn-slider1').on('click', function () {
@@ -128,22 +126,6 @@ $(document).ready(function () {
         $('.sliderPop3').removeClass('flexslider');
         $('.sliderPop3 .ct-sliderPop-container').removeClass('slides');
     });
-});
-
-//SCRIPT CV OUVERTURE
-$(document).ready(function(){
-  $('.cvBtn').on('click', function (){
-    $('.cvAfficher').show();
-    $('.cv-container').addClass('open');
-    $('.cvAfficher').addClass('flexslider');
-    $('.cvAfficher .ct-sliderPop-container').addClass('slides');
-    $('.cvAfficher').flexslider({
-        selector: '.ct-sliderPop-container > .ct-sliderPop',
-        slideshow: false,
-        controlNav: false,
-        controlsContainer: '.ct-sliderPop-container'
-    });
-  });
 });
 
 
