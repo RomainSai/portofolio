@@ -57,8 +57,9 @@ img#bg {
 /* =================================
   # SECTION QUI SUIS JE
 ================================= */
-.presentation p{
+#presentation p{
   margin: 20px;
+  text-align: justify;
 }
 
 /* SECTION 2 */
