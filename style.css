@@ -20,6 +20,7 @@ img#bg {
   text-align: center;
   font-size: 30px;
   color: grey;
+  margin-bottom: 40px;
 }
 
 /* SECTION 1  */
@@ -348,9 +349,10 @@ hr{
     width: 30px;
 }
 
-.photoCV img{
-  height:  25%;
-  width: 25%;
+.photoCV {
+  height: 90%;
+  width: 90%;
+  margin: 20px 10px 20px 15px;
 }
 
 /* =================================
