@@ -1,8 +1,16 @@
 //Fermeture du DropDown au click
 $(document).ready(function () {
-    $(".dropdown-menu a").click(function () {
-        $(this).closest(".dropdown-menu").prev().dropdown("toggle");
+
+    $("#dlDropdown").click(function () {
+        $("#bs-example-navbar-collapse-1").show();
+        console.log("show")
     });
+
+    $(".download").click(function () {
+        $("#bs-example-navbar-collapse-1").hide().show();
+    });
+
+
     var prevScrollpos = window.pageYOffset;
     window.onscroll = function () {
         var currentScrollPos = window.pageYOffset;
