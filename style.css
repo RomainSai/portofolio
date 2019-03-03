@@ -4,6 +4,7 @@ body{
   background-image: -moz-linear-gradient(to bottom right, white, #a7a7a7);
   background-image: -o-linear-gradient(to bottom right, white, #a7a7a7);
   background-image: linear-gradient(to bottom right, white, #a7a7a7);
+  font-family: inherit;
 }
 
 
@@ -21,6 +22,11 @@ img#bg {
   font-size: 30px;
   color: grey;
   margin-bottom: 40px;
+}
+/* NAVBAR  */
+.logo img{
+  margin-top: -8px;
+  height: 180%;
 }
 
 /* SECTION 1  */
@@ -61,6 +67,11 @@ img#bg {
 #presentation p{
   margin: 20px;
   text-align: justify;
+}
+
+#presentation a{
+  text-decoration: none;
+  color: #124A80;
 }
 
 /* SECTION 2 */
@@ -312,6 +323,7 @@ img#bg {
     border-top: 1px solid grey;
 }
 
+
 /* SECTION 3 CONTACT */
 .culture-section3{
   background: black;
@@ -358,7 +370,6 @@ hr{
 .photoCV {
   height: 90%;
   width: 90%;
-  margin: 20px 10px 20px 15px;
 }
 
 /* =================================
