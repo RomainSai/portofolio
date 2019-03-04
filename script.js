@@ -1,27 +1,11 @@
 //Fermeture du DropDown au click
 $(document).ready(function () {
 
-    $("#dlDropdown").click(function () {
-        $("#bs-example-navbar-collapse-1").show();
-        console.log("show")
-    });
-
-    $(".download").click(function () {
-        $("#bs-example-navbar-collapse-1").hide().show();
-    });
-
-
-    var prevScrollpos = window.pageYOffset;
-    window.onscroll = function () {
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-            document.getElementById("navbar").style.top = "0";
-            console.log("je suis dans le if");
-        } else {
-            document.getElementById("navbar").style.top = "-500px";
-        }
-        prevScrollpos = currentScrollPos;
+  $('.navbar-nav li a').on('click', function(){
+    if(!$( this ).hasClass('dropdown-toggle')){
+      $('.navbar-collapse').collapse('hide');
     }
+  });
 });
 
 //Popup Speak&Up
@@ -31,7 +15,7 @@ $( document ).ready(function() {
       document.getElementById("first-section").style.filter = " blur(2px)";
       document.getElementById("projet").style.filter = " blur(2px)";
       document.getElementById("projets").style.filter = " blur(2px)";
-      document.getElementById("cv").style.filter = " blur(2px)";
+      document.getElementById("resume").style.filter = " blur(2px)";
       document.getElementById("contact").style.filter = " blur(2px)";
       document.getElementById("footer").style.filter = " blur(2px)";
     $('.sliderPop1').show();
@@ -52,7 +36,7 @@ $( document ).ready(function() {
       document.getElementById("first-section").style.filter = "none";
       document.getElementById("projet").style.filter = "none";
       document.getElementById("projets").style.filter = "none";
-      document.getElementById("cv").style.filter = "none";
+      document.getElementById("resume").style.filter = "none";
       document.getElementById("contact").style.filter = "none";
       document.getElementById("footer").style.filter = "none";
     $('.sliderPop1').hide();
@@ -69,7 +53,7 @@ $( document ).ready(function() {
       document.getElementById("first-section").style.filter = " blur(2px)";
       document.getElementById("projet").style.filter = " blur(2px)";
       document.getElementById("projets").style.filter = " blur(2px)";
-      document.getElementById("cv").style.filter = " blur(2px)";
+      document.getElementById("resume").style.filter = " blur(2px)";
       document.getElementById("contact").style.filter = " blur(2px)";
       document.getElementById("footer").style.filter = " blur(2px)";
     $('.sliderPop2').show();
@@ -89,7 +73,7 @@ $( document ).ready(function() {
       document.getElementById("first-section").style.filter = "none";
       document.getElementById("projet").style.filter = "none";
       document.getElementById("projets").style.filter = "none";
-      document.getElementById("cv").style.filter = "none";
+      document.getElementById("resume").style.filter = "none";
       document.getElementById("contact").style.filter = "none";
       document.getElementById("footer").style.filter = "none";
     $('.sliderPop2').hide();
@@ -106,7 +90,7 @@ $(document).ready(function () {
       document.getElementById("first-section").style.filter = " blur(2px)";
       document.getElementById("projet").style.filter = " blur(2px)";
       document.getElementById("projets").style.filter = " blur(2px)";
-      document.getElementById("cv").style.filter = " blur(2px)";
+      document.getElementById("resume").style.filter = " blur(2px)";
       document.getElementById("contact").style.filter = " blur(2px)";
       document.getElementById("footer").style.filter = " blur(2px)";
         $('.sliderPop3').show();
@@ -126,7 +110,7 @@ $(document).ready(function () {
       document.getElementById("first-section").style.filter = "none";
       document.getElementById("projet").style.filter = "none";
       document.getElementById("projets").style.filter = "none";
-      document.getElementById("cv").style.filter = "none";
+      document.getElementById("resume").style.filter = "none";
       document.getElementById("contact").style.filter = "none";
       document.getElementById("footer").style.filter = "none";
         $('.sliderPop3').hide();

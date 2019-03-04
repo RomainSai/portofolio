@@ -29,6 +29,26 @@ img#bg {
   height: 130%;
 }
 
+/* TOUTE LA PAGE */
+.hr_type1{
+  width: 60px;
+  height: 7px;
+  border-radius: 40px;
+  line-height:20px;
+  background-color: #0086b3;
+}
+
+.hr_type2{
+  width: 50px;
+  margin-top: 0px !important;
+  background-color: #0086b3;
+  border-radius: 40px;
+  height: 7px;
+  align-items: left;
+
+}
+
+
 /* SECTION 1  */
 .first-section {
   background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(images/image_code.jpg) fixed no-repeat;
@@ -323,6 +343,38 @@ img#bg {
     border-top: 1px solid grey;
 }
 
+.diplomeFormationCompetence h3{
+  color: #333;
+  font-family: "Futura", sans-serif;
+  font-size: 1.3em;
+  line-height: 3em;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.cadre{
+  margin-bottom: 40px;
+}
+
+.titreStyle{
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #000;
+}
+
+.titreStyle.titre{
+  text-align: center;
+}
+
+.annee{
+  border-radius: 22px;
+  text-align: center;
+  color: #333;
+  background-color: #e7edf6;
+}
+
 
 /* SECTION 3 CONTACT */
 .culture-section3{
@@ -368,6 +420,7 @@ hr{
 }
 
 .photoCV {
+  margin-left: 10px;
   height: 90%;
   width: 90%;
 }
